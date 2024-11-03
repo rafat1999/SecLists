@@ -1,0 +1,5 @@
+* text=auto
+*.txt text
+*.zip -text
+*.tgz -text
+SecLists/* filter=lfs diff=lfs merge=lfs -text
